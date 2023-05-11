@@ -1,0 +1,34 @@
+{
+  "name": "gradebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sriram-2002/GradeBook.git"
+  },
+  "keywords": [
+    "GradeBook"
+  ],
+  "author": "Sriram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriram-2002/GradeBook/issues"
+  },
+  "homepage": "https://github.com/sriram-2002/GradeBook#readme",
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}

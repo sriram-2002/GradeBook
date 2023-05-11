@@ -1,0 +1,185 @@
+body {
+  background-color: #aec7d0;
+}
+
+.title {
+  text-align: center;
+  color: orange;
+  background-color: bisque;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.date {
+  color: #000;
+  position: relative;
+  left: 535px;
+}
+
+.titlelogo {
+  height: 30px;
+  background-color: bisque;
+  padding-top: 25px;
+}
+
+.headerlist1 {
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+}
+
+.headerlist1 li {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+@media (width >= 768px) {
+  .headerlist1 li {
+    width: calc(33% - 10px);
+    margin-bottom: 0;
+  }
+
+  .headerlist1:before {
+    content: "";
+    height: 70px;
+  }
+}
+
+.headerimg {
+  height: 20px;
+}
+
+.header {
+  background-color: #0ff;
+}
+
+.mainblock {
+  background-color: #faebd7;
+}
+
+.buttonkey {
+  width: 20%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.buttons {
+  background-color: gray;
+  border-radius: 30%;
+}
+
+.buttons:hover {
+  background-color: orange;
+}
+
+.details {
+  background-color: azure;
+  border-radius: 30%;
+}
+
+.details:hover {
+  background-color: #ffebcd;
+}
+
+.main1 {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+
+.searchbox {
+  position: relative;
+  right: 10px;
+}
+
+table {
+  width: 100%;
+  height: 400px;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  position: relative;
+  top: 20px;
+}
+
+.thead {
+  height: 50px;
+  background-color: #0ff;
+  border: 1px solid #000;
+}
+
+td {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.details-popup {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-color: orchid;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+@keyframes example {
+  0% {
+    background-color: orchid;
+    top: 0%;
+    right: 40%;
+  }
+
+  100% {
+    background-color: orchid;
+    top: 30%;
+    right: 40%;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.statTable {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+th {
+  border: 1px solid #000;
+}
+
+.statThead {
+  height: 40px;
+  text-align: center;
+  background-color: bisque;
+}
+
+tr {
+  height: auto;
+  width: auto;
+}
+
+.hide {
+  margin-top: 25px;
+}
+
+.show {
+  border-radius: 30%;
+  margin-bottom: 15px;
+  position: absolute;
+  left: 750px;
+}
+
+.hide {
+  border-radius: 30%;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
